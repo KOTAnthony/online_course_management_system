@@ -1,4 +1,5 @@
 <img src="OCMS.png" />
+    
 # Project Summary
 The Online Course Management System is designed to streamline the management of online courses, facilitating interactions between students, instructors, and course materials. This system aims to provide a comprehensive platform that includes features for enrollment tracking, course material management, and user authentication, ensuring an efficient and organized learning environment.
 
