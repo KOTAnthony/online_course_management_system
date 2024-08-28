@@ -168,7 +168,7 @@ def update_grade(EnrollmentID, Grade):
 def view_course_materials(CourseID):
     conn = sqlite3.connect('course.db')
     cursor = conn.cursor()
-    cursor.execute('SELECT * FROM course_material_info WHERE CourseID = ?', (CourseID,))
+    cursor.execute('SELECT * FROM course_material_info WHERE CourseID = ?', (CourseID))
     rows = cursor.fetchall()
     conn.close()
 
